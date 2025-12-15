@@ -4,8 +4,9 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillFacebook,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -14,7 +15,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Developed by Soumyajit Behera - Designed by Joshua Arellano</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} SB</h3>
@@ -23,7 +24,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/Joshua-Arellano"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -33,7 +34,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://bsky.app/profile/killiandw.bsky.social"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -43,22 +44,22 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://spacehey.com/profile?id=4326124"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaLinkedinIn />
+                <FaUser />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://www.facebook.com/profile.php?id=100010138623594"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+                <AiFillFacebook />
               </a>
             </li>
           </ul>
