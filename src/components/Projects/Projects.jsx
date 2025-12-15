@@ -22,7 +22,7 @@ function Projects() {
               isBlog={false}
               title="Weather App"
               description="Weather app built with React.js and utilizes OpenWeatherMap's API to fetch information of typed input location, then display onto the user's screen."
-              ghLink="https://github.com/Joshua-Arellano/Joshua-Arellano-weather-app.github.io"
+              ghLink="https://github.com/Joshua-Arellano/weather-app"
               demoLink="https://weather-app-demo-link.com"
             />
           </Col>
