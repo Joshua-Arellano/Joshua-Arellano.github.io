@@ -95,8 +95,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                target="_blank"
-                to="https://form.jotform.com/253479125847064"
+                to="/contact"
                 onClick={() => updateExpanded(false)}
               >
                 <CgMail style={{ marginBottom: "2px" }} /> Contact

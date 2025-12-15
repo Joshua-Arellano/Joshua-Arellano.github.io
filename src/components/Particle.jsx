@@ -1,7 +1,11 @@
 import React from "react";
-import Particles from "react-tsparticles";
+import { Particles } from "@tsparticles/react";
 
 function Particle() {
+  const particlesInit = async (engine) => {
+  await loadFull(engine);
+};
+
   return (
     <Particles
       id="tsparticles"
