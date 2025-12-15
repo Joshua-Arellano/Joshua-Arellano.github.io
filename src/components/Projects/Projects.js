@@ -2,12 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -27,7 +22,7 @@ function Projects() {
               isBlog={false}
               title="Weather App"
               description="Weather app built with React.js and utilizes OpenWeatherMap's API to fetch information of typed input location, then display onto the user's screen."
-              ghLink="https://github.com/Joshua-Arellano/Joshua-Arellano-weather-app"
+              ghLink="https://github.com/Joshua-Arellano/Joshua-Arellano-weather-app.github.io"
               demoLink="https://weather-app-demo-link.com"
             />
           </Col>

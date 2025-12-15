@@ -71,7 +71,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://bsky.app/profile/killiandw.bsky.social"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -81,7 +81,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://spacehey.com/profile?id=4326124"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -91,7 +91,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.facebook.com/profile.php?id=100010138623594"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
