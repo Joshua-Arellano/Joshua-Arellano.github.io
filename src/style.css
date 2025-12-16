@@ -1,17 +1,17 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(58, 58, 47, 0.762),
+    rgba(70, 68, 52, 0.776)
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(65, 68, 51, 0.803),
+    rgba(48, 49, 36, 0.775)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #7ea64b ;
 }
 
 .purple {
@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #161611;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -62,12 +62,12 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #404b39 ;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: #7ea64b ;
   border-radius: 12px;
 }
 
@@ -81,7 +81,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #4c5844  !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -102,7 +102,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #7ea64b !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -199,7 +199,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #7ea64b;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -286,17 +286,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #7ea64b;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #7ea64b !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #7ea64b !important;
 }
 
 @media (max-width: 767px) {
@@ -363,7 +363,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: #4c5844 !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -375,8 +375,8 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 50%;
-  background: #68187a;
+  border-radius: 50%; 
+  background: #6c7e60;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -384,13 +384,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #7ea64b;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #7ea64b;
+  box-shadow: 0 0 5px #7ea64b;
+  text-shadow: 0 0 2px #7ea64b;
 }
 
 .social-icons {
@@ -400,14 +400,14 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #7ea64b !important;
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: #4c5844;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -416,6 +416,9 @@ button:focus {
   text-align: center !important;
 }
 
+.footer-anchor {
+
+}
 .footer-body {
   z-index: 1;
   text-align: center !important;
@@ -444,7 +447,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #7ea64b !important;
 }
 /* --------- */
 /* Projects */
@@ -465,7 +468,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px #6c7e6090 !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -475,7 +478,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px #86a45fa8 !important;
 }
 
 .blog-card {
@@ -523,14 +526,14 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #6c7e60 !important;
+  border-color: #4c5844!important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #7ea64b !important;
+  border-color: #6c7e60 !important;
 }
 .btn:focus {
   outline: none !important;
@@ -563,11 +566,11 @@ button:focus {
   margin: 15px !important;
   padding: 10px 20px !important;
   opacity: 0.93 !important;
-  outline: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  outline: 1.7px solid #6c7e60 !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 24px !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px #6c7e6090 !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
   width: fit-content !important;
@@ -592,7 +595,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  outline: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  outline: 2.2px solid #7ea64b !important;
 }
 .tech-icon-images {
   height: 1.6rem;
@@ -663,7 +666,7 @@ button:focus {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #8a49a8;
+  border-left: 2px solid #6c7e60;
   position: relative;
 }
 
